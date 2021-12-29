@@ -12,4 +12,4 @@ Responsive Web Design - Freecodecamp
 <img  src="certificates/freecodecamp-certificate-RWD.png"/>
 
 [go to original document](https://www.freecodecamp.org/certification/owaisathar28/responsive-web-design)
- 
+_(thank you freecodecamp)_
