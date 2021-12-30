@@ -82,6 +82,8 @@ nav {
     .hero-text {
         color: white;
         .hero-heading {
+            letter-spacing: -2px;
+            ;
             font-size: 1.4rem;
             line-height: 3.4rem;
             color: white;
@@ -98,6 +100,14 @@ nav {
             margin: 15px 0px;
             font-weight: 400;
         }
+        .hero-buttons {
+            .primary__button {
+                position: relative;
+                z-index: 1;
+                padding: 20px 30px;
+                background-color: #000;
+            }
+        }
     }
 }
 
@@ -109,6 +119,7 @@ nav {
     }
     .hero-box {
         height: 100vh;
+        padding: 0rem 2rem;
     }
 }
 

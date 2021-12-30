@@ -105,6 +105,7 @@ nav {
 }
 
 .hero-box .hero-text .hero-heading {
+  letter-spacing: -2px;
   font-size: 1.4rem;
   line-height: 3.4rem;
   color: white;
@@ -124,6 +125,13 @@ nav {
   font-weight: 400;
 }
 
+.hero-box .hero-text .hero-buttons .primary__button {
+  position: relative;
+  z-index: 1;
+  padding: 20px 30px;
+  background-color: #000;
+}
+
 @media (max-width: 415px) {
   .hero-heading,
   .hero-parra,
@@ -132,6 +140,7 @@ nav {
   }
   .hero-box {
     height: 100vh;
+    padding: 0rem 2rem;
   }
 }
 
