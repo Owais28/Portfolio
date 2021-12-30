@@ -79,4 +79,50 @@ nav {
   background: #ccc;
   color: black;
 }
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-box {
+  padding: 3rem 2rem;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.hero-box .hero-text .hero-heading {
+  font-size: 1.4rem;
+  line-height: 3.4rem;
+}
+
+.hero-box .hero-text .hero-heading span {
+  display: inline;
+  padding-right: 5 px;
+  background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 600px) {
+  .hero-heading,
+  .hero-parra,
+  .hero-buttons {
+    text-align: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero-box {
+    padding: 2rem 2rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
