@@ -72,6 +72,11 @@ nav {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .hero-box {
     padding: 3rem 2rem;
     width: 100%;
@@ -101,11 +106,14 @@ nav {
             font-weight: 400;
         }
         .hero-buttons {
+            display: flex;
+            justify-content: start;
             .primary__button {
                 position: relative;
                 z-index: 1;
                 padding: 20px 30px;
-                background-color: #000;
+                background-color: white;
+                margin-right: 20px;
             }
         }
     }
