@@ -162,6 +162,10 @@ a {
         height: 100vh;
         padding: 0rem 2rem;
     }
+    .hero-buttons {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (min-width:800px) {
