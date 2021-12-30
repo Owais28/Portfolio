@@ -73,8 +73,11 @@ nav {
 
 .flex-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    width: 100%;
 }
 
 a {
@@ -85,12 +88,15 @@ a {
 .hero-box {
     padding: 3rem 2rem;
     width: 100%;
-    max-width: 1000px;
-    color: white;
     background: black;
     ;
     .hero-text {
-        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        // margin-top: 15px;
+        max-width: 1000px;
+        margin-top: 3rem;
+        background-color: black;
         color: white;
         .hero-heading {
             letter-spacing: -2px;
@@ -152,31 +158,38 @@ a {
     }
 }
 
-.hero-buttons {
-    a {
-        display: block;
-    }
-}
-
-@media (max-width:415px) {
-    .hero-heading,
-    .hero-parra,
-    .hero-buttons {
-        text-align: center;
-    }
-    .hero-box {
-        height: 80vh;
-        padding: 0rem 2rem;
+.image-box {
+    border-radius: 50%;
+    margin: 0px auto;
+    img {
+        border-radius: 50%;
+        width: 70%;
+        height: auto;
     }
     .hero-buttons {
-        justify-content: center;
-        align-items: center;
+        a {
+            display: block;
+        }
     }
-}
-
-@media (min-width:800px) {
-    .hero-box {
-        padding: 2rem 2rem;
-        // margin: 0px auto;
+    @media (max-width:415px) {
+        .hero-heading,
+        .hero-parra,
+        .hero-buttons {
+            text-align: center;
+        }
+        .hero-box {
+            height: 80vh;
+            padding: 0rem 2rem;
+        }
+        .hero-buttons {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    @media (min-width:800px) {
+        .hero-box {
+            padding: 2rem 2rem;
+            // margin: 0px auto;
+        }
     }
 }

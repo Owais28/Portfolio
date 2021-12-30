@@ -86,12 +86,16 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: black;
+  width: 100%;
 }
 
 a {
@@ -102,13 +106,15 @@ a {
 .hero-box {
   padding: 3rem 2rem;
   width: 100%;
-  max-width: 1000px;
-  color: white;
   background: black;
 }
 
 .hero-box .hero-text {
-  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  margin-top: 3rem;
+  background-color: black;
   color: white;
 }
 
@@ -192,21 +198,32 @@ a {
           transform: translateX(5px);
 }
 
-.hero-buttons a {
+.image-box {
+  border-radius: 50%;
+  margin: 0px auto;
+}
+
+.image-box img {
+  border-radius: 50%;
+  width: 70%;
+  height: auto;
+}
+
+.image-box .hero-buttons a {
   display: block;
 }
 
 @media (max-width: 415px) {
-  .hero-heading,
-  .hero-parra,
-  .hero-buttons {
+  .image-box .hero-heading,
+  .image-box .hero-parra,
+  .image-box .hero-buttons {
     text-align: center;
   }
-  .hero-box {
+  .image-box .hero-box {
     height: 80vh;
     padding: 0rem 2rem;
   }
-  .hero-buttons {
+  .image-box .hero-buttons {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -217,7 +234,7 @@ a {
 }
 
 @media (min-width: 800px) {
-  .hero-box {
+  .image-box .hero-box {
     padding: 2rem 2rem;
   }
 }
