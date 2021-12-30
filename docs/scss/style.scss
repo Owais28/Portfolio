@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+// font-family: 'Noto Sans',
+// sans-serif;
+// font-family: 'Open Sans',
+// sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+}
+
+.navbar__container {
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    color: white;
+    margin: 0px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2px;
+}
+
+.nav__logo {
+    padding: 0px 10px;
+}
+
+.navbar__menu ul {
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+    li {
+        margin: 5px;
+        padding: 10px;
+        // color: black;
+        font-size: 1.1rem;
+        border-radius: 3px;
+        // color: black;
+        transition: background-color 0.4s ease-out;
+        a {
+            text-decoration: none;
+            // color: black;
+            color: inherit;
+            font-weight: 400;
+        }
+    }
+    li:hover {
+        background: #ccc;
+        color: black;
+    }
+}
