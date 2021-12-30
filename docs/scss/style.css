@@ -124,7 +124,7 @@ nav {
   font-weight: 400;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 415px) {
   .hero-heading,
   .hero-parra,
   .hero-buttons {
