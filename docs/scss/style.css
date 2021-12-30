@@ -96,11 +96,18 @@ nav {
   padding: 3rem 2rem;
   width: 100%;
   max-width: 1000px;
+  color: white;
+  background: black;
+}
+
+.hero-box .hero-text {
+  color: white;
 }
 
 .hero-box .hero-text .hero-heading {
   font-size: 1.4rem;
   line-height: 3.4rem;
+  color: white;
 }
 
 .hero-box .hero-text .hero-heading span {
@@ -112,11 +119,19 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 
+.hero-box .hero-text .hero-parra {
+  margin: 15px 0px;
+  font-weight: 400;
+}
+
 @media (max-width: 600px) {
   .hero-heading,
   .hero-parra,
   .hero-buttons {
     text-align: center;
+  }
+  .hero-box {
+    height: 100vh;
   }
 }
 

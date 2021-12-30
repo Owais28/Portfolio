@@ -76,10 +76,15 @@ nav {
     padding: 3rem 2rem;
     width: 100%;
     max-width: 1000px;
+    color: white;
+    background: black;
+    ;
     .hero-text {
+        color: white;
         .hero-heading {
             font-size: 1.4rem;
             line-height: 3.4rem;
+            color: white;
             span {
                 display: inline;
                 padding-right: 5 px;
@@ -89,6 +94,10 @@ nav {
                 -webkit-text-fill-color: transparent;
             }
         }
+        .hero-parra {
+            margin: 15px 0px;
+            font-weight: 400;
+        }
     }
 }
 
@@ -97,6 +106,9 @@ nav {
     .hero-parra,
     .hero-buttons {
         text-align: center;
+    }
+    .hero-box {
+        height: 100vh;
     }
 }
 
