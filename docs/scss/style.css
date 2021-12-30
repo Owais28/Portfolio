@@ -195,6 +195,24 @@ a {
           transform: translateX(5px);
 }
 
+.timeline-section {
+  background-color: #fdfd;
+  padding: 2rem;
+}
+
+.timeline-section .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60px 1fr;
+      grid-template-columns: 60px 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.timeline-section .container .timeline-logo img {
+  width: 1.3rem;
+}
+
 .image-box {
   border-radius: 50%;
   margin: 0px auto;

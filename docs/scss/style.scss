@@ -159,6 +159,21 @@ a {
     }
 }
 
+.timeline-section {
+    background-color: #fdfd;
+    padding: 2rem;
+    .container {
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        grid-template-rows: auto;
+        .timeline-logo {
+            img {
+                width: 1.3rem;
+            }
+        }
+    }
+}
+
 .image-box {
     border-radius: 50%;
     margin: 0px auto;
