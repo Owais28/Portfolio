@@ -109,13 +109,46 @@ a {
             display: flex;
             justify-content: start;
             .primary__button {
+                border-width: 0px;
                 position: relative;
                 z-index: 1;
-                padding: 20px 30px;
+                padding: 10px;
                 background-color: white;
                 margin-right: 20px;
+                border-radius: 4px;
+                transition: transform 0.3s ease-out;
+            }
+            .primary__button:hover {
+                transform: scale(1.1);
+                // transform: scale();
+            }
+            .secondary__button {
+                border-width: 0px;
+                position: relative;
+                z-index: 1;
+                padding: 10px;
+                background-color: white;
+                margin-right: 20px;
+                border-radius: 4px;
+                transition: transform 0.3s ease-out;
+                i {
+                    transition: transform 0.2s ease-out;
+                }
+            }
+            .secondary__button:hover {
+                transform: scale(1.1);
+                // transform: scale();
+                i {
+                    transform: translateX(5px);
+                }
             }
         }
+    }
+}
+
+.hero-buttons {
+    a {
+        display: block;
     }
 }
 

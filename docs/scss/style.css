@@ -140,11 +140,57 @@ a {
 }
 
 .hero-box .hero-text .hero-buttons .primary__button {
+  border-width: 0px;
   position: relative;
   z-index: 1;
-  padding: 20px 30px;
+  padding: 10px;
   background-color: white;
   margin-right: 20px;
+  border-radius: 4px;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.hero-box .hero-text .hero-buttons .primary__button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.hero-box .hero-text .hero-buttons .secondary__button {
+  border-width: 0px;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 4px;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.hero-box .hero-text .hero-buttons .secondary__button i {
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.hero-box .hero-text .hero-buttons .secondary__button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.hero-box .hero-text .hero-buttons .secondary__button:hover i {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.hero-buttons a {
+  display: block;
 }
 
 @media (max-width: 415px) {
