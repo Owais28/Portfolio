@@ -249,6 +249,9 @@ a {
 }
 
 @media (min-width: 800px) {
+  .timeline-logo img {
+    width: 4rem;
+  }
   .hero-box {
     padding: 2rem 2rem;
   }
