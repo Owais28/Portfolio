@@ -182,6 +182,7 @@ a {
 }
 
 .hero-box .hero-text .hero-buttons .secondary__button i {
+  margin-left: 5px;
   -webkit-transition: -webkit-transform 0.2s ease-out;
   transition: -webkit-transform 0.2s ease-out;
   transition: transform 0.2s ease-out;
