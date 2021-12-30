@@ -19,8 +19,6 @@ nav {
 }
 
 .navbar__container {
-  position: fixed;
-  top: 0;
   color: white;
   margin: 0px auto;
   max-width: 1000px;
