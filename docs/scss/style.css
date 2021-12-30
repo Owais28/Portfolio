@@ -209,21 +209,21 @@ a {
   height: auto;
 }
 
-.image-box .hero-buttons a {
+.hero-buttons a {
   display: block;
 }
 
 @media (max-width: 415px) {
-  .image-box .hero-heading,
-  .image-box .hero-parra,
-  .image-box .hero-buttons {
+  .hero-heading,
+  .hero-parra,
+  .hero-buttons {
     text-align: center;
   }
-  .image-box .hero-box {
+  .hero-box {
     height: 80vh;
     padding: 0rem 2rem;
   }
-  .image-box .hero-buttons {
+  .hero-buttons {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -234,8 +234,11 @@ a {
 }
 
 @media (min-width: 800px) {
-  .image-box .hero-box {
+  .hero-box {
     padding: 2rem 2rem;
+  }
+  .hero-heading h1 {
+    font-size: 3.4rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -166,30 +166,38 @@ a {
         width: 70%;
         height: auto;
     }
+}
+
+.hero-buttons {
+    a {
+        display: block;
+    }
+}
+
+@media (max-width:415px) {
+    .hero-heading,
+    .hero-parra,
     .hero-buttons {
-        a {
-            display: block;
-        }
+        text-align: center;
     }
-    @media (max-width:415px) {
-        .hero-heading,
-        .hero-parra,
-        .hero-buttons {
-            text-align: center;
-        }
-        .hero-box {
-            height: 80vh;
-            padding: 0rem 2rem;
-        }
-        .hero-buttons {
-            justify-content: center;
-            align-items: center;
-        }
+    .hero-box {
+        height: 80vh;
+        padding: 0rem 2rem;
     }
-    @media (min-width:800px) {
-        .hero-box {
-            padding: 2rem 2rem;
-            // margin: 0px auto;
+    .hero-buttons {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:800px) {
+    .hero-box {
+        padding: 2rem 2rem;
+        // margin: 0px auto;
+    }
+    .hero-heading {
+        h1 {
+            font-size: 3.4rem;
         }
     }
 }
