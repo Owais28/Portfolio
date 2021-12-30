@@ -150,8 +150,6 @@ a {
 
 .hero-box .hero-text .hero-buttons .primary__button {
   border-width: 0px;
-  position: relative;
-  z-index: 1;
   padding: 10px;
   background-color: white;
   margin-right: 20px;
@@ -169,8 +167,6 @@ a {
 
 .hero-box .hero-text .hero-buttons .secondary__button {
   border-width: 0px;
-  position: relative;
-  z-index: 1;
   padding: 10px;
   background-color: white;
   margin-right: 20px;
