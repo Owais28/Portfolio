@@ -203,11 +203,11 @@ a {
 .timeline-section .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 3rem 1fr;
-      grid-template-columns: 3rem 1fr;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  grid-gap: 1.1rem;
+  grid-gap: 2rem 1rem;
 }
 
 .timeline-section .container .timeline-logo img {
@@ -226,33 +226,72 @@ a {
   border-color: #ccc;
 }
 
+.timeline-section .container .content .header-right {
+  margin-right: 5px;
+}
+
 .timeline-section .container .content .header {
   padding: 0.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  background-color: black;
+}
+
+.timeline-section .container .content .header .card-title {
+  margin-left: 5px;
+}
+
+.timeline-section .container .content .header .card-title .topic {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.timeline-section .container .content .header .status {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom-style: solid;
-  border-width: 1px;
-  border-color: #ccc;
-}
-
-.timeline-section .container .content .header .status {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-style: solid;
   border-width: 1px;
-  padding: 3px;
-  border-radius: 3px;
+  padding: 1px 3px;
+  border-radius: 5px;
 }
 
 .timeline-section .container .content .header .status i {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-weight: 300;
 }
 
 .timeline-section .container .content .header .status span {
-  font-weight: 500;
-  font-size: 0.8rem;
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin-left: 3px;
+}
+
+.timeline-section .container .content .header .completed {
+  border-color: #82f899;
+  background-color: #27581d;
+  color: #90faa5;
+}
+
+.timeline-section .container .content .description {
+  padding: 5px 11px;
 }
 
 .image-box {

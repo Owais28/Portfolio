@@ -164,9 +164,9 @@ a {
     padding: 2rem;
     .container {
         display: grid;
-        grid-template-columns: 3rem 1fr;
+        grid-template-columns: auto 1fr;
         grid-template-rows: auto;
-        grid-gap: 1.1rem;
+        grid-gap: 1.5rem 1rem;
         .timeline-logo {
             img {
                 width: 1.4rem;
@@ -182,26 +182,52 @@ a {
             border-style: solid;
             border-width: 1px;
             border-color: #ccc;
+            .header-right {
+                margin-right: 5px
+            }
             .header {
                 padding: 0.4rem;
                 display: flex;
+                color: white;
                 justify-content: space-between;
+                align-items: center;
                 border-bottom-style: solid;
                 border-width: 1px;
                 border-color: #ccc;
-                .status {
-                    border-style: solid;
-                    border-width: 1px;
-                    padding: 3px;
-                    border-radius: 3px;
-                    i {
-                        font-size: 0.8rem;
-                    }
-                    span {
-                        font-weight: 500;
-                        font-size: 0.8rem;
+                background-color: black;
+                .card-title {
+                    margin-left: 5px;
+                    .topic {
+                        font-size: 1.2rem;
+                        font-weight: 600;
                     }
                 }
+                .status {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-style: solid;
+                    border-width: 1px;
+                    padding: 1px 3px;
+                    border-radius: 5px;
+                    i {
+                        font-size: 0.7rem;
+                        font-weight: 300;
+                    }
+                    span {
+                        font-weight: 400;
+                        font-size: 0.7rem;
+                        margin-left: 3px;
+                    }
+                }
+                .completed {
+                    border-color: #82f899;
+                    background-color: #27581d;
+                    color: #90faa5;
+                }
+            }
+            .description {
+                padding: 5px 11px;
             }
         }
     }
