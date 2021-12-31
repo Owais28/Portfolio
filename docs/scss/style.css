@@ -125,7 +125,7 @@ nav {
 }
 
 .navbar__menu ul li:hover {
-  background: #ccc;
+  background: #d9f2fc;
   color: black;
 }
 
@@ -292,6 +292,7 @@ a {
 }
 
 .timeline-section .container .timeline-logo {
+  margin-right: 3px;
   position: relative;
   z-index: 50;
 }
@@ -328,8 +329,17 @@ a {
   border-style: solid;
   border-width: 1px;
   border-color: #ccc;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.timeline-section .container .content:hover {
+  -webkit-transform: scale(1.01, 1.01);
+          transform: scale(1.01, 1.01);
 }
 
 .timeline-section .container .content .header-right {
@@ -356,7 +366,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: white;
+  color: #f1fbff;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -421,6 +431,8 @@ a {
 
 .timeline-section .container .content .description {
   padding: 5px 11px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#d9f2fc), to(white));
+  background-image: linear-gradient(to bottom right, #d9f2fc, white);
 }
 
 .image-box {

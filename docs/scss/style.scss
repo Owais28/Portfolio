@@ -114,7 +114,7 @@ nav {
         }
     }
     li:hover {
-        background: #ccc;
+        background: rgb(217, 242, 252);
         color: black;
     }
 }
@@ -262,7 +262,7 @@ a {
             }
         }
         .timeline-logo {
-            // margin-right: 5px;
+            margin-right: 3px;
             position: relative;
             z-index: 50;
             // z-index: 1; 
@@ -296,7 +296,11 @@ a {
             border-style: solid;
             border-width: 1px;
             border-color: #ccc;
+            transition: transform 0.2s ease-out;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            &:hover {
+                transform: scale(1.01, 1.01);
+            }
             .header-right {
                 margin-right: 5px;
                 display: flex;
@@ -309,7 +313,7 @@ a {
                 border-top-right-radius: inherit;
                 padding: 0.4rem;
                 display: flex;
-                color: white;
+                color: rgb(241, 251, 255);
                 justify-content: space-between;
                 align-items: center;
                 border-bottom-style: solid;
@@ -356,6 +360,7 @@ a {
             }
             .description {
                 padding: 5px 11px;
+                background-image: linear-gradient(to bottom right, rgb(217, 242, 252), rgb(255, 255, 255));
             }
         }
     }
