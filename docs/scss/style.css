@@ -319,8 +319,14 @@ a {
 }
 
 .timeline-section .container .timeline-logo img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
   background-clip: content-box;
   position: relative;
   z-index: 50;
@@ -328,7 +334,7 @@ a {
   height: auto;
   border-radius: 100%;
   border-width: 2px;
-  border-color: white;
+  border-color: #b16cea;
   border-style: solid;
 }
 
