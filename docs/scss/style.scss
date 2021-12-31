@@ -167,6 +167,8 @@ a {
         grid-template-columns: auto 1fr;
         grid-template-rows: auto;
         grid-gap: 1.5rem 1rem;
+        margin: 0px auto;
+        max-width: 1000px;
         .timeline-logo {
             img {
                 width: 1.4rem;
@@ -205,8 +207,9 @@ a {
                 .status {
                     display: flex;
                     justify-content: space-between;
-                    align-items: center;
                     border-style: solid;
+                    align-items: center;
+                    border-color: #ccc;
                     border-width: 1px;
                     padding: 1px 3px;
                     border-radius: 5px;
@@ -222,7 +225,7 @@ a {
                 }
                 .completed {
                     border-color: #82f899;
-                    background-color: #27581d;
+                    background-color: #27581db2;
                     color: #90faa5;
                 }
             }
