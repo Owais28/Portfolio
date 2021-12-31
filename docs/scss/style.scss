@@ -338,8 +338,8 @@ a {
                 .card-title {
                     margin-left: 5px;
                     .topic {
-                        font-size: 1.2rem;
-                        font-weight: 600;
+                        font-size: 1rem;
+                        font-weight: 500;
                     }
                 }
                 .status {
@@ -368,7 +368,18 @@ a {
                 }
             }
             .description {
-                padding: 5px 11px;
+                .strip-light {
+                    border-radius: 2px;
+                    padding: 0px 10px;
+                    background-color: #FEE3EC;
+                    i {
+                        margin-right: 8px
+                    }
+                    span {
+                        font-size: 0.9rem;
+                    }
+                }
+                padding: 5px;
                 // background-image: linear-gradient(to bottom right, rgb(217, 242, 252), rgb(255, 255, 255));
                 // backdrop-filter: blur(3rem);
                 p {

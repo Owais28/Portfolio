@@ -404,8 +404,8 @@ a {
 }
 
 .timeline-section .container .content .header .card-title .topic {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .timeline-section .container .content .header .status {
@@ -443,7 +443,21 @@ a {
 }
 
 .timeline-section .container .content .description {
-  padding: 5px 11px;
+  padding: 5px;
+}
+
+.timeline-section .container .content .description .strip-light {
+  border-radius: 2px;
+  padding: 0px 10px;
+  background-color: #FEE3EC;
+}
+
+.timeline-section .container .content .description .strip-light i {
+  margin-right: 8px;
+}
+
+.timeline-section .container .content .description .strip-light span {
+  font-size: 0.9rem;
 }
 
 .timeline-section .container .content .description p {
