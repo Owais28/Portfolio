@@ -243,6 +243,8 @@ a {
 }
 
 .timeline-section {
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
   background-color: #fdfd;
   padding: 2rem 3.2rem 2rem 3.2rem;
 }
@@ -258,6 +260,16 @@ a {
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.timeline-section .blur {
+  -webkit-backdrop-filter: blur(3rem);
+          backdrop-filter: blur(3rem);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .timeline-section .container {
@@ -325,7 +337,8 @@ a {
   margin-left: 1.8rem;
   margin-bottom: 1rem;
   border-radius: 3px;
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#d9f2fc), to(white));
+  background-image: linear-gradient(to bottom right, #d9f2fc, white);
   border-style: solid;
   border-width: 1px;
   border-color: #ccc;
@@ -431,8 +444,23 @@ a {
 
 .timeline-section .container .content .description {
   padding: 5px 11px;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#d9f2fc), to(white));
-  background-image: linear-gradient(to bottom right, #d9f2fc, white);
+}
+
+.timeline-section .container .content .description p {
+  -webkit-backdrop-filter: blur(3rem);
+          backdrop-filter: blur(3rem);
+}
+
+#circle {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: red;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: 2px;
+     object-position: 2px;
 }
 
 .image-box {
