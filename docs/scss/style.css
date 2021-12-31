@@ -242,7 +242,20 @@ a {
 
 .timeline-section {
   background-color: #fdfd;
-  padding: 3.2rem;
+  padding: 2rem 3.2rem 2rem 3.2rem;
+}
+
+.timeline-section h1 {
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #b16cea;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 0px 10px;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .timeline-section .container {

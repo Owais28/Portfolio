@@ -207,12 +207,22 @@ a {
 }
 
 .timeline-section {
+    h1 {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #b16cea;
+        max-width: fit-content;
+        padding: 0px 10px;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
     background-color: #fdfd;
     // background-image: url(https://images.unsplash.com/photo-1604076913837-52ab5629fba9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhZGllbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     // object-fit: cover;
     // background-clip: border-box;
     // background-repeat: no-repeat;
-    padding: 3.2rem;
+    padding: 2rem 3.2rem 2rem 3.2rem;
     // filter: blur(1rem);
     // .content:before {
     //     position: absolute;
