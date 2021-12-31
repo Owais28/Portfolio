@@ -245,7 +245,7 @@ a {
 .timeline-section {
   -webkit-backdrop-filter: blur(2rem);
           backdrop-filter: blur(2rem);
-  background-color: #fdfd;
+  background-color: #F1F3F8;
   padding: 2rem 3.2rem 2rem 3.2rem;
 }
 
