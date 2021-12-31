@@ -230,6 +230,7 @@ a {
             margin-left: -1rem;
             z-index: 20;
             display: flex;
+            flex-wrap: wrap;
             &:last-child {
                 border: none;
             }
