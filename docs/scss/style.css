@@ -331,7 +331,7 @@ a {
           justify-content: space-between;
   -webkit-box-align: end;
       -ms-flex-align: end;
-          align-items: end;
+          align-items: flex-end;
 }
 
 .timeline-section .container .content .header {
