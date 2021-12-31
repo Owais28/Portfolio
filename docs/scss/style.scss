@@ -61,9 +61,10 @@ body {
 nav {
     z-index: 100;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.712);
     position: fixed;
     top: 0;
+    backdrop-filter: blur(1rem)
 }
 
 .navbar__container {
@@ -166,7 +167,7 @@ a {
         }
         .hero-buttons {
             display: flex;
-            justify-content: start;
+            justify-content: center;
             .primary__button {
                 border-width: 0px;
                 // position: relative;
