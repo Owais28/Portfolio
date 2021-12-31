@@ -201,6 +201,7 @@ a {
             border-left: 1px solid#ccc;
             margin-left: -1rem;
             z-index: 20;
+            display: flex;
             &:last-child {
                 border: none;
             }
@@ -220,6 +221,7 @@ a {
             }
         }
         .content {
+            max-width: 320px;
             margin-left: 1.8rem;
             margin-bottom: 1rem;
             border-radius: 3px;
@@ -232,6 +234,8 @@ a {
                 margin-right: 5px
             }
             .header {
+                border-top-left-radius: inherit;
+                border-top-right-radius: inherit;
                 padding: 0.4rem;
                 display: flex;
                 color: white;

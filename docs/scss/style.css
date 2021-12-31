@@ -224,6 +224,9 @@ a {
   border-left: 1px solid #ccc;
   margin-left: -1rem;
   z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .timeline-section .container .content-wrapper:last-child {
@@ -246,6 +249,7 @@ a {
 }
 
 .timeline-section .container .content {
+  max-width: 320px;
   margin-left: 1.8rem;
   margin-bottom: 1rem;
   border-radius: 3px;
@@ -262,6 +266,8 @@ a {
 }
 
 .timeline-section .container .content .header {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
   padding: 0.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
