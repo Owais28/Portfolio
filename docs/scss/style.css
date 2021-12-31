@@ -10,6 +10,25 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b16cea;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
@@ -222,6 +241,7 @@ a {
 }
 
 .timeline-section .container .content-wrapper {
+  margin-right: 5px;
   position: relative;
   border-left: 1px solid #ccc;
   margin-left: -1rem;
