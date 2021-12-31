@@ -196,6 +196,8 @@ a {
         grid-gap: 0rem rem 0rem;
         margin: 0px auto;
         max-width: 1000px;
+        max-height: 1000px;
+        overflow: auto;
         .content-wrapper {
             position: relative;
             border-left: 1px solid#ccc;
