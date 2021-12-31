@@ -290,14 +290,27 @@ a {
 }
 
 .timeline-section .container .timeline-logo {
-  margin-right: 5px;
   position: relative;
+  z-index: 50;
+}
+
+.timeline-section .container .timeline-logo i {
+  z-index: inherit;
+  font-size: 1.6rem;
+  color: #b16cea;
+  background-color: white;
+  border-radius: 100%;
+  border-style: solid;
 }
 
 .timeline-section .container .timeline-logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-clip: content-box;
   position: relative;
   z-index: 50;
-  width: 1.4rem;
+  width: 1.6rem;
+  height: auto;
   border-radius: 100%;
   border-width: 2px;
   border-color: white;
