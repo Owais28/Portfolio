@@ -282,7 +282,7 @@ a {
   grid-gap: 0rem rem 0rem;
   margin: 0px auto;
   max-width: 1000px;
-  max-height: 1000px;
+  max-height: 700px;
   overflow: auto;
 }
 
@@ -359,6 +359,11 @@ a {
 .timeline-section .container .content:hover {
   -webkit-transform: scale(1.01, 1.01);
           transform: scale(1.01, 1.01);
+}
+
+.timeline-section .container .content:hover .timeline-logo img {
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
 }
 
 .timeline-section .container .content .header-right {

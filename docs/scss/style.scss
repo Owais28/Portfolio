@@ -257,7 +257,7 @@ a {
         grid-gap: 0rem rem 0rem;
         margin: 0px auto;
         max-width: 1000px;
-        max-height: 1000px;
+        max-height: 700px;
         overflow: auto;
         .content-wrapper {
             margin-right: 5px;
@@ -313,6 +313,9 @@ a {
             box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
             &:hover {
                 transform: scale(1.01, 1.01);
+                .timeline-logo img {
+                    transform: scale(2, 2);
+                }
             }
             .header-right {
                 margin-right: 5px;
