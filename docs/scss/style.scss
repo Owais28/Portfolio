@@ -11,6 +11,21 @@
 
 html {
     scroll-behavior: smooth;
+     ::-webkit-scrollbar {
+        width: 3px;
+    }
+    /* Track */
+     ::-webkit-scrollbar-track {
+        background: #ffffff;
+    }
+    /* Handle */
+     ::-webkit-scrollbar-thumb {
+        background: #b16cea;
+    }
+    /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
 }
 
 ::-webkit-scrollbar {
@@ -197,7 +212,7 @@ a {
     // object-fit: cover;
     // background-clip: border-box;
     // background-repeat: no-repeat;
-    padding: 2rem;
+    padding: 3.2rem;
     // filter: blur(1rem);
     // .content:before {
     //     position: absolute;
@@ -342,6 +357,19 @@ a {
     .hero-buttons {
         justify-content: center;
         align-items: center;
+    }
+    .timeline-section {
+        padding: 2rem 10px;
+        ;
+    }
+    .status {
+        font-size: 0.5rem;
+        i {
+            font-size: 0.5rem;
+        }
+        span {
+            font-size: 0.5rem;
+        }
     }
 }
 

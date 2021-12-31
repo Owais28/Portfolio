@@ -8,6 +8,25 @@
 
 html {
   scroll-behavior: smooth;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+html ::-webkit-scrollbar {
+  width: 3px;
+}
+
+html ::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: #b16cea;
+}
+
+html ::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 ::-webkit-scrollbar {
@@ -223,7 +242,7 @@ a {
 
 .timeline-section {
   background-color: #fdfd;
-  padding: 2rem;
+  padding: 3.2rem;
 }
 
 .timeline-section .container {
@@ -388,6 +407,18 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .timeline-section {
+    padding: 2rem 10px;
+  }
+  .status {
+    font-size: 0.5rem;
+  }
+  .status i {
+    font-size: 0.5rem;
+  }
+  .status span {
+    font-size: 0.5rem;
   }
 }
 
