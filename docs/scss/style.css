@@ -16,6 +16,7 @@ body {
 }
 
 nav {
+  z-index: 100;
   width: 100%;
   background-color: black;
   position: fixed;
@@ -23,6 +24,7 @@ nav {
 }
 
 .navbar__container {
+  z-index: auto;
   color: white;
   margin: 0px auto;
   max-width: 1000px;
@@ -48,6 +50,7 @@ nav {
 }
 
 .nav__logo {
+  z-index: 1;
   padding: 0px 10px;
 }
 
@@ -211,12 +214,30 @@ a {
       grid-template-columns: auto 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  grid-gap: 1.5rem 1rem;
+  grid-gap: 0rem rem 0rem;
   margin: 0px auto;
   max-width: 1000px;
 }
 
+.timeline-section .container .content-wrapper {
+  position: relative;
+  border-left: 1px solid #ccc;
+  margin-left: -1rem;
+  z-index: 20;
+}
+
+.timeline-section .container .content-wrapper:last-child {
+  border: none;
+}
+
+.timeline-section .container .timeline-logo {
+  margin-right: 5px;
+  position: relative;
+}
+
 .timeline-section .container .timeline-logo img {
+  position: relative;
+  z-index: 50;
   width: 1.4rem;
   border-radius: 100%;
   border-width: 2px;
@@ -225,6 +246,8 @@ a {
 }
 
 .timeline-section .container .content {
+  margin-left: 1.8rem;
+  margin-bottom: 1rem;
   border-radius: 3px;
   background-color: whitesmoke;
   border-style: solid;

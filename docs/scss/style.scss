@@ -19,6 +19,7 @@ body {
 }
 
 nav {
+    z-index: 100;
     width: 100%;
     background-color: black;
     position: fixed;
@@ -26,6 +27,7 @@ nav {
 }
 
 .navbar__container {
+    z-index: auto;
     // position: fixed;
     // top: 0;
     a {
@@ -43,6 +45,7 @@ nav {
 }
 
 .nav__logo {
+    z-index: 1;
     padding: 0px 10px;
 }
 
@@ -171,15 +174,44 @@ a {
     // background-repeat: no-repeat;
     padding: 2rem;
     // filter: blur(1rem);
+    // .content:before {
+    //     position: absolute;
+    //     content: '';
+    //     width: 2px;
+    //     height: calc(100% + 50px);
+    //     // background: //rgb(138, 145, 150) ;
+    //     background: #ccc;
+    //     background: -moz-linear-gradient(left, rgba(138, 145, 150, 1) 0%, rgba(122, 130, 136, 1) 60%, rgba(98, 105, 109, 1) 100%);
+    //     background: -webkit-linear-gradient(left, rgba(138, 145, 150, 1) 0%, rgba(122, 130, 136, 1) 60%, rgba(98, 105, 109, 1) 100%);
+    //     background: linear-gradient(to right, rgba(138, 145, 150, 1) 0%, rgba(122, 130, 136, 1) 60%, rgba(98, 105, 109, 1) 100%);
+    //     // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8a9196', endColorstr='#62696d', GradientType=1);
+    //     left: 15px;
+    //     top: 5px;
+    //     border-radius: 4px;
+    // }
     .container {
         display: grid;
         grid-template-columns: auto 1fr;
         grid-template-rows: auto;
-        grid-gap: 1.5rem 1rem;
+        grid-gap: 0rem rem 0rem;
         margin: 0px auto;
         max-width: 1000px;
+        .content-wrapper {
+            position: relative;
+            border-left: 1px solid#ccc;
+            margin-left: -1rem;
+            z-index: 20;
+            &:last-child {
+                border: none;
+            }
+        }
         .timeline-logo {
+            margin-right: 5px;
+            position: relative;
+            // z-index: 1;
             img {
+                position: relative;
+                z-index: 50;
                 width: 1.4rem;
                 border-radius: 100%;
                 border-width: 2px;
@@ -188,6 +220,8 @@ a {
             }
         }
         .content {
+            margin-left: 1.8rem;
+            margin-bottom: 1rem;
             border-radius: 3px;
             background-color: whitesmoke;
             border-style: solid;
