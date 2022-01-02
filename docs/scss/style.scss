@@ -167,7 +167,7 @@ a {
         }
         .hero-buttons {
             display: flex;
-            justify-content: center;
+            // justify-content: center;
             .primary__button {
                 border-width: 0px;
                 // position: relative;
@@ -208,6 +208,7 @@ a {
 }
 
 .timeline-section {
+    display: none;
     h1 {
         display: block;
         text-align: center;

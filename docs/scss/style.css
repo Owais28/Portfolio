@@ -190,9 +190,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .hero-box .hero-text .hero-buttons .primary__button {
@@ -243,6 +240,7 @@ a {
 }
 
 .timeline-section {
+  display: none;
   -webkit-backdrop-filter: blur(2rem);
           backdrop-filter: blur(2rem);
   background-color: #F1F3F8;
