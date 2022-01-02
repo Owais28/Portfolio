@@ -466,7 +466,13 @@ a {
     }
     .hero-heading {
         h1 {
-            font-size: 3.4rem;
+            font-size: 5rem;
+            line-height: 5rem;
+        }
+    }
+    .hero-parra {
+        p {
+            font-size: 2rem;
         }
     }
 }
