@@ -503,22 +503,9 @@ a {
 }
 
 @media (max-width: 415px) {
-  .hero-heading,
-  .hero-parra,
-  .hero-buttons {
-    text-align: center;
-  }
   .hero-box {
     height: 100vh;
     padding: 0rem 2rem;
-  }
-  .hero-buttons {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .timeline-section {
     padding: 2rem 10px;
