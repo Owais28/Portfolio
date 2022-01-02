@@ -187,6 +187,7 @@ a {
 }
 
 .hero-box .hero-text .hero-buttons {
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,7 +534,7 @@ a {
     line-height: 5rem;
   }
   .hero-parra p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
