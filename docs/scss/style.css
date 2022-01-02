@@ -541,13 +541,18 @@ a {
   }
   .hero-box {
     padding: 2rem 2rem;
+    height: 100vh;
   }
   .hero-heading h1 {
     font-size: 5rem;
-    line-height: 5rem;
+    line-height: 5.4rem;
   }
   .hero-parra p {
     font-size: 1.5rem;
+  }
+  .hero-text {
+    padding-top: 4rem;
+    margin-bottom: 4rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

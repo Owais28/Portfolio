@@ -137,7 +137,7 @@ a {
     padding: 3rem 2rem;
     width: 100%;
     background: black;
-    ;
+    // background-image: url(image);
     .hero-text {
         margin-left: auto;
         margin-right: auto;
@@ -470,16 +470,22 @@ a {
     .hero-box {
         padding: 2rem 2rem;
         // margin: 0px auto;
+        height: 100vh;
+        // background-image: url(image/);
     }
     .hero-heading {
         h1 {
             font-size: 5rem;
-            line-height: 5rem;
+            line-height: 5.4rem;
         }
     }
     .hero-parra {
         p {
             font-size: 1.5rem;
         }
+    }
+    .hero-text {
+        padding-top: 4rem;
+        margin-bottom: 4rem;
     }
 }
