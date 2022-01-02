@@ -150,7 +150,7 @@ a {
             letter-spacing: -2px;
             ;
             font-size: 1.9rem;
-            line-height: 4.3rem;
+            line-height: 4rem;
             color: white;
             span {
                 display: inline;
@@ -427,12 +427,18 @@ a {
 }
 
 @media (max-width:415px) {
+    .navbar__menu {
+        display: none;
+    }
     .hero-heading,
     .hero-parra,
     .hero-buttons {
         // text-align: center;
     }
     .hero-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         height: 100vh;
         padding: 0rem 2rem;
     }
