@@ -52,6 +52,7 @@ html ::-webkit-scrollbar-thumb:hover {
 body {
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
+  color: white;
 }
 
 .secondary-link {
@@ -251,6 +252,20 @@ a {
 .hero-box .hero-text .hero-buttons .secondary__button:hover i {
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
+}
+
+.box-indent {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-indent h1 {
+  margin-bottom: 18px;
+}
+
+a:hover {
+  opacity: 0.85;
 }
 
 .timeline-section {
