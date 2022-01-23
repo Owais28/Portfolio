@@ -264,6 +264,14 @@ a {
   margin-bottom: 18px;
 }
 
+.m-right-2 {
+  margin-right: 5px;
+}
+
+.m-right-3 {
+  margin-right: 20px;
+}
+
 a:hover {
   opacity: 0.85;
 }
@@ -275,6 +283,19 @@ a:hover {
 a:active,
 a:visited {
   opacity: 0.85;
+}
+
+.social-media {
+  margin-top: 18px;
+}
+
+.flex-wrapper1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .timeline-section {
