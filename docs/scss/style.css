@@ -264,6 +264,18 @@ a {
   margin-bottom: 18px;
 }
 
+.flex-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.m-bottom-1 {
+  margin-bottom: 5px;
+}
+
 .m-right-2 {
   margin-right: 5px;
 }
@@ -296,6 +308,8 @@ a:visited {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .timeline-section {
