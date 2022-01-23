@@ -301,6 +301,10 @@ a:visited {
   margin-top: 18px;
 }
 
+.social-media a {
+  font-size: 1.1rem;
+}
+
 .flex-wrapper1 {
   display: -webkit-box;
   display: -ms-flexbox;
