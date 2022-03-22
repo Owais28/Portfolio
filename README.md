@@ -11,13 +11,13 @@ My Portfolio
 <h1 id="certificates">Certificates</h1>
 
 Responsive Web Design - Freecodecamp
-<img  src="certificates/freecodecamp-certificate-RWD.png"/>
+<img  src="certificates/freecodecamp-certificate-RWD.png" alt="responsive web design certificate by freecodecamp"/>
 
 [go to original document](https://www.freecodecamp.org/certification/owaisathar28/responsive-web-design)
 _(thank you freecodecamp)_
 
 Web Development Training - Internshala Trainings
-<embed src="certificates/Web Development Training - Certificate of Completion.pdf" type="application/pdf"/>
+<img src="certificates/Web-Development-Traing-InternshalaTrainings.png" alt="web development training certificate by Internshala Trainings"/>
 
-[go to original document](https://www.freecodecamp.org/cert)
-_(thank you freecodecamp)_
+[go to original document](https://trainings.internshala.com/s/v/777417/c8307026t)
+_(thank you Internshala Trainings)_
