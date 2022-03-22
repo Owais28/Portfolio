@@ -16,8 +16,8 @@ Responsive Web Design - Freecodecamp
 [go to original document](https://www.freecodecamp.org/certification/owaisathar28/responsive-web-design)
 _(thank you freecodecamp)_
 
-Responsive Web Design - Freecodecamp
-<img  src="certificates/Web Development Training - Certificate of Completion.pdf"/>
+Web Development Training - Internshala Trainings
+<embed src="certificates/Web Development Training - Certificate of Completion.pdf" type="application/pdf"/>
 
 [go to original document](https://www.freecodecamp.org/cert)
 _(thank you freecodecamp)_
