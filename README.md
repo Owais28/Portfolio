@@ -17,7 +17,7 @@ Responsive Web Design - Freecodecamp
 _(thank you freecodecamp)_
 
 Responsive Web Design - Freecodecamp
-<img  src="certificates/freecodecamp-certificate-RWD.png"/>
+<img  src="certificates/Web Development Training - Certificate of Completion.pdf"/>
 
-[go to original document](https://www.freecodecamp.org/certification/owaisathar28/responsive-web-design)
+[go to original document](https://www.freecodecamp.org/cert)
 _(thank you freecodecamp)_
